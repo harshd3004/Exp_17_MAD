@@ -1,7 +1,6 @@
 package com.example.exp_17_mad;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.util.Log;
 
@@ -41,6 +40,8 @@ public class HelloWorld extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
+        Log.d("Activity Lifecycle","onDestroy invoked");
         super.onDestroy();
+
     }
 }
